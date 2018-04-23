@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/foodNameEt"
+        android:hint="Ej: pollo, carne, pescado, etc..."
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:layout_height="45dp"
+        android:inputType="text"
+        android:background="@drawable/bg_white_bordered_primary"/>
+
+    <EditText
+        android:id="@+id/foodTypeEt"
+        android:hint="Agregado"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:layout_height="45dp"
+        android:inputType="text"
+        android:background="@drawable/bg_white_bordered_primary"/>
+
+
+
+    <ImageButton
+        android:id="@+id/saveFoodBtn"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_save_white_24dp"
+        android:theme="@style/AccentButton"/>
+
+</LinearLayout>
